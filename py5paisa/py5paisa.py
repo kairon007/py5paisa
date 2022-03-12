@@ -96,7 +96,7 @@ class FivePaisaClient:
             requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
             res = self.session.post(route, json=self.login_payload, headers=HEADERS)
             resp=res.json()
-            self.Jwt_token=resp["body"]["JWTToken"]
+            #self.Jwt_token=resp["body"]["JWTToken"]
             return res.json()
         except Exception as e:
             log_response(e)
