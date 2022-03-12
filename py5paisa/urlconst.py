@@ -3,7 +3,7 @@ BaseUrl='https://Openapi.5paisa.com/VendorsAPI/Service1.svc/'
 
 
 
-LOGIN_ROUTE = f'{BaseUrl}V4/LoginRequestMobileNewbyEmail'
+LOGIN_ROUTE = f'{BaseUrl}V3/LoginRequestMobileNewbyEmail'
 
 MARGIN_ROUTE = f'{BaseUrl}V3/Margin'
 ORDER_BOOK_ROUTE = f'{BaseUrl}V2/OrderBook'
